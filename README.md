@@ -1,7 +1,7 @@
 # ExploratoryTesting_Moneyfy
-## Test cases for Exploratory Testing of Moneyfy App
+## Exploratory testing charters to document your testing.
 
-A list of ideas/bullet points of what should be tested in monefy application. A list of test cases is representing the app structure. Every statement is a test. 
+List of ideas/bullet points of what should be tested in monefy application. List of test cases is representing the app structure. Every statement is a test. 
 
 * App Home screen should display header. /High/
     * Menu button should open left side-menu
@@ -97,3 +97,53 @@ A list of ideas/bullet points of what should be tested in monefy application. A 
 * Pro-Feature screen should appear every time a button with Pro-Feature is tapped.
     * Pro-Feature screen should display big CTA button to initiate purchase of unlimited use
     * Pro-Feature screen should display a list of features available after purchase of unlimited use
+
+## Findings from your charters. Did everything work as expected? What bugs were discovered?
+
+* Overall Monefy is an useful app to manage daily/monthly/yearly expenses for any individual by creating account using simple app UI.
+* Most of the app features are working fine but some needs enhancement done to fix issues observed.
+* There were few bugs discovered as explained below during exploratory testing
+
+## Bugs discovered during Exploratory Testing of Moneyfy App
+
+* When I input money for expense/income and leave “add note” field empty, then go for choosing category , I can’t switch back to add note.Instead of it, I need to recreate “add expense”.
+* No cryptocurrencies found and no ability to add “our own” currency
+* No native synchronization of history, only Dropbox and Google Drive.
+* User is prompted to pay for switching to Dark mode
+* It does not allow to reorder or mark items paid if you pay early so you remember not to pay them again.
+* It does not show you your running balance. Only the overall balance for the time frame is selected.
+
+## Prioritisation of those charters - which area of the app or testing would you explore first and why?
+   # Below are key areas of the app to be tested in ascending order of priority
+   
+* App Home screen should display header.
+* Menu button should open left side-menu
+* It should be possible to navigate through the header buttons
+* Double-arrow button should open New transfer screen
+* New transfer screen should have active input of transaction ammount
+* New transfer screen should have button to invoke onscreen numeric keyboard
+* Numeric onscreen keyboard should have Add transfer button
+* New transfer screen should give possibility to select between the money space to transfer from
+* New transfer screen should give possibility to select between the money space to transfer to
+* It should be possible to add new transfer transaction via Add Transfer button
+* New transfer screen should be closed
+* Vertical elipsis button should open Right-side menu
+* Accounts sub-menu should allow creating transfer transaction
+* App Home screen should display Category actions.
+* Category actions buttons should open "New expense" screen
+* New expence screen should have active input of transaction ammount
+* It should be possible to enter transaction ammount using the onscreen numeric keyboard
+* It should be impossible to skip transaction ammount input (zero value is not accepted)
+* Input value should be validated
+* New expense screen should display onscreen numeric keyboard
+* Onscreen numeric keyboard should influence only transaction ammount input
+* New expenses screen shoult have button ADD '[CATEGORY NAME]'
+* Tapping on ADD button, if the transaction ammount is zero, highlights transaction ammount input
+* App Home screen should display -/+ fab buttons
+* Tap on - fab button opens New expense screen
+* Tap on + fab button opens New income screen.
+* It should be impossible to Choose Category while the transaction ammount is zero.
+* Balance button is updated after income transaction was created. Transaction is displayed in Balance history section.
+
+## How much time you have planned for each charter?
+   * 
