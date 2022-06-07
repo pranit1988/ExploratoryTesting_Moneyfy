@@ -72,7 +72,7 @@ A list of ideas/bullet points of what should be tested in monefy application. A 
     * New expense screen should display onscreen numeric keyboard
         * Onscreen numeric keyboard should influence only transaction ammount input
         * Onscreen numeric keyboard should have a proper layout
-    * New expenses screen shoult have button ADD '[CATEGORY NAME]'
+    * New expenses screen should have button ADD '[CATEGORY NAME]'
         * Tapping on ADD button, if the transaction ammount is zero, highlights transaction ammount input
         * Tapping on ADD button with valid transaction ammount and any valid or empty note value creates "Expense transaction". New expense window is closed.
         * It should be possible to Cancel the transaction. For that after creating transaction the pop-up message should appear. The pop-up message should confirm the transaction. There should be Cancel button in the pop-up message. Cancel button deletes transaction. Pop-up message disappears after 10 sec.
