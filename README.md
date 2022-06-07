@@ -120,7 +120,7 @@ List of ideas/bullet points of what should be tested in monefy application. List
 * Menu button should open left side-menu
 * It should be possible to navigate through the header buttons
 * Double-arrow button should open New transfer screen
-* New transfer screen should have active input of transaction ammount
+* New transfer screen should have active input of transaction amount
 * New transfer screen should have button to invoke onscreen numeric keyboard
 * Numeric onscreen keyboard should have Add transfer button
 * New transfer screen should give possibility to select between the money space to transfer from
@@ -131,19 +131,33 @@ List of ideas/bullet points of what should be tested in monefy application. List
 * Accounts sub-menu should allow creating transfer transaction
 * App Home screen should display Category actions.
 * Category actions buttons should open "New expense" screen
-* New expence screen should have active input of transaction ammount
-* It should be possible to enter transaction ammount using the onscreen numeric keyboard
-* It should be impossible to skip transaction ammount input (zero value is not accepted)
+* New expence screen should have active input of transaction amount
+* It should be possible to enter transaction amount using the onscreen numeric keyboard
+* It should be impossible to skip transaction amount input (zero value is not accepted)
 * Input value should be validated
 * New expense screen should display onscreen numeric keyboard
-* Onscreen numeric keyboard should influence only transaction ammount input
+* Onscreen numeric keyboard should influence only transaction amount input
 * New expenses screen shoult have button ADD '[CATEGORY NAME]'
-* Tapping on ADD button, if the transaction ammount is zero, highlights transaction ammount input
+* Tapping on ADD button, if the transaction amount is zero, highlights transaction amount input
 * App Home screen should display -/+ fab buttons
 * Tap on - fab button opens New expense screen
 * Tap on + fab button opens New income screen.
-* It should be impossible to Choose Category while the transaction ammount is zero.
+* It should be impossible to Choose Category while the transaction amount is zero.
 * Balance button is updated after income transaction was created. Transaction is displayed in Balance history section.
 
 ## How much time you have planned for each charter?
-   * 
+   * App Home and Category screen are the primary features as it is the origin point for creating expenses/incomes.
+   * Accounts and Currencies are the secondary key features to be tested.
+   * Overall 94 TCs are identified with 32 - High, 42 - Medium and 20 - Low priortiy Test Cases, 116 days will be required to automate the test cases and complete test execution
+
+## What kind of risks you need to mitigate for this type of application?
+
+** Risks
+
+* User data can be lost if cloud sync is not ON all the time.
+* There is high risk to loose data if user has data of many months/yearsData is not stored on local device.
+
+** Mitigation
+
+* Without cloud sync ON User should not be allowed to access the app.
+* Local storage also need to be enabled to backup user data on device and choice need to be given to user for having backup.
