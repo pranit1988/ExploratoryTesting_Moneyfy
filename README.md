@@ -1,5 +1,5 @@
 # ExploratoryTesting_Moneyfy
-***Test cases for Exploratory Testing of Moneyfy App***
+****Test cases for Exploratory Testing of Moneyfy App***
 
 A list of ideas/bullet points of what should be tested in monefy application. A list of test cases is representing the app structure. Every statement is a test. 
 
