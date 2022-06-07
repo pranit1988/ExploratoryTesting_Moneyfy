@@ -55,8 +55,8 @@ List of ideas/bullet points of what should be tested in monefy application. List
 * App Home screen should display Category actions. /High/
 * Category actions buttons should open "New expense" screen /High/
     * New expense screen should have a "Back arrow button" to return to Home screen
-    * New expence screen shout display current date in format "Weekday, DD Month"
-    * New expence screen should have active input of transaction ammount
+    * New expense screen shout display current date in format "Weekday, DD Month"
+    * New expense screen should have active input of transaction ammount
         * It should be possible to clear input value using "backspace" button
         * It should be possible to see transaction currency next to transaction ammount input
         * It should be possible to enter transaction ammount using the onscreen numeric keyboard
@@ -68,7 +68,7 @@ List of ideas/bullet points of what should be tested in monefy application. List
     * New expence screen should have input to "Add note" to transaction
         * Tapping on the "Add note" input displays onscreen character keyboard
         * It should be possible to enter n characters in note
-        * It should be possible to finish typing note by tapping on green checkmakr button. Onscreen character keyboard is closed. "Add note" input should be inactive /BUG/
+        * It should be possible to finish typing note by tapping on green checkmark button. Onscreen character keyboard is closed. "Add note" input should be inactive /BUG/
     * New expense screen should display onscreen numeric keyboard
         * Onscreen numeric keyboard should influence only transaction ammount input
         * Onscreen numeric keyboard should have a proper layout
