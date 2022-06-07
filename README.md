@@ -113,8 +113,8 @@ List of ideas/bullet points of what should be tested in monefy application. List
 * It does not allow to reorder or mark items paid if you pay early so you remember not to pay them again.
 * It does not show you your running balance. Only the overall balance for the time frame is selected.
 
-## Prioritisation of those charters - which area of the app or testing would you explore first and why?
-   # Below are key areas of the app to be tested in ascending order of priority
+# Prioritisation of those charters - which area of the app or testing would you explore first and why?
+   ## Below are key areas of the app to be tested in ascending order of priority
    
 * App Home screen should display header.
 * Menu button should open left side-menu
