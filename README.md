@@ -148,7 +148,7 @@ List of ideas/bullet points of what should be tested in monefy application. List
 ## How much time you have planned for each charter?
    * App Home and Category screen are the primary features as it is the origin point for creating expenses/incomes.
    * Accounts and Currencies are the secondary key features to be tested.
-   * Overall 94 TCs are identified with 32 - High, 42 - Medium and 20 - Low priortiy Test Cases, 116 days will be required to automate the test cases and complete test execution
+   * Overall 94 TCs are identified with 32 - High, 42 - Medium and 20 - Low priortiy Test Cases, so in all 116 days if single person is required to automate the test cases and complete test execution. Depending on the number of persons allocated based on budget and team size , number of days can be reduced significantly.
 
 ## What kind of risks you need to mitigate for this type of application?
 
